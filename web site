@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabzon'un Tarihi</title>
+    <style>
+        /* Sitenin arka planı ve genel tasarımı */
+        body {
+            background-color: #0b2e13; /* Koyu Trabzon/Doğa Yeşili */
+            color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Başlık tasarımı */
+        h1 {
+            color: #00d2ff; /* Mavi vurgu */
+            font-size: 32px;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        /* Bilgi kutusu */
+        .bilgi-kutusu {
+            background-color: #611a1a; /* Bordo tonu */
+            border: 3px solid #00d2ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            text-align: left;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #ffc107;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Buton tasarımı */
+        button {
+            background-color: #611a1a;
+            color: #00d2ff;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            border: 2px solid #00d2ff;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #00d2ff;
+            color: #611a1a;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Trabzon'un Şanlı Tarihi</h1>
+    <p>Kendi ellerimle kodladığım Trabzon özel web sayfama hoş geldiniz!</p>
+
+    <!-- Tarih Kutusu -->
+    <div class="bilgi-kutusu">
+        <h2>Kuruluş ve Tarihçe</h2>
+        <p><strong>Kuruluş Yılı:</strong> MÖ 756</p>
+        <p><strong>Kurucuları:</strong> Miletoslu tüccarlar tarafından bir koloni olarak kurulmuştur.</p>
+        <p><strong>Önemi:</strong> Tarih boyunca İpek Yolu üzerinde yer almış, Pontus Krallığı'na ve Trabzon İmparatorluğu'na başkentlik yapmış, 1461 yılında Fatih Sultan Mehmet tarafından Osmanlı topraklarına katılmıştır.</p>
+    </div>
+
+    <!-- Etkileşimli Buton -->
+    <button onclick="trabzonMesaji()">Bize Her Yer Trabzon!</button>
+
+    <script>
+        function trabzonMesaji() {
+            alert("61! Bize her yer Trabzon kral, gurur duy!");
+        }
+    </script>
+
+</body>
+</html>
